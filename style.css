@@ -155,8 +155,11 @@ hr {
 }
 
 @media (min-width: 768px) {
+  body {
+    padding: 0 40px;
+  }
   .container {
-    padding: 40px;
+    padding: 100px 0;
     display: flex;
     align-items: center;
     justify-content: center;
